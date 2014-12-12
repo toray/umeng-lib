@@ -13,8 +13,12 @@
     </uses-permission>
 
     <uses-sdk
+<<<<<<< HEAD
         android:minSdkVersion="8"
         android:targetSdkVersion="18" />
+=======
+        android:minSdkVersion="8"/>
+>>>>>>> 5aa27ffab8ad74559e6c703d2de2e07c5f7fda90
 
     <application>
 
