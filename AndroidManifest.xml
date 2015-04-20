@@ -11,9 +11,9 @@
     </uses-permission>
     <uses-permission android:name="android.permission.READ_PHONE_STATE" >
     </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
-    <uses-sdk
-        android:minSdkVersion="8"/>
+    <uses-sdk android:minSdkVersion="8" />
 
     <application>
 
@@ -27,17 +27,7 @@
             android:name="com.umeng.update.UpdateDialogActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" >
         </activity>
-
-        <!--
-        <meta-data
-            android:name="UMENG_APPKEY"
-            android:value="535dff1c56240b23a8014d2c" >
-        </meta-data>
-        <meta-data
-            android:name="UMENG_CHANNEL"
-            android:value="official" />
-        -->
-
+        <activity android:name="com.umeng.fb.ConversationActivity" />
     </application>
 
 </manifest>
